@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spring Boot MVC Application - BIT235
 
 This is a Spring Boot MVC application created following the course guidelines for BIT235 Object Oriented Programming.
@@ -81,3 +82,6 @@ Sensitive fields like email and password in the `Customer` entity are automatica
 ## Auto-Reload
 
 The application includes Spring Boot DevTools for automatic recompilation and restart when source files change. Simply save your files and refresh the browser after a few seconds.
+=======
+# LoginProject
+>>>>>>> 00c8bf8367ee81c9763c66a034f89185438e1154
