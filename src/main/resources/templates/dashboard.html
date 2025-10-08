@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding-top: 50px; }
+    </style>
+</head>
+<body>
+    <h1 th:if="${username}">Welcome, <span th:text="${username}"></span>!</h1>
+    <h1 th:if="${username == null}">Welcome to the Dashboard!</h1>
+    <p th:if="${success}" th:text="${success}">You have successfully logged in.</p>
+    <p th:if="${success == null}">You have successfully logged in.</p>
+</body>
+</html>
